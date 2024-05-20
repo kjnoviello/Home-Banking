@@ -1,26 +1,35 @@
 package com.BancoSaintPatrick.HomeBanking.controllers;
 
-import com.BancoSaintPatrick.HomeBanking.models.Tarjeta;
 import com.BancoSaintPatrick.HomeBanking.models.Usuario;
+import com.BancoSaintPatrick.HomeBanking.services.UsuarioService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/usuario")
 public class UsuarioController {
 
-    @GetMapping
-    public void getAll(){}
+    @Autowired
+    private UsuarioService usuarioService;
 
     @GetMapping
-    public void getUsuarioByID(@PathVariable("usuarioid") Long usuarioid){}
+    public void getAll(){
+        usuarioService.getall();
+    }
 
-    @GetMapping("/{usuariodni}")
-    public void getusuarioBydni(@PathVariable("usuariodni") double usuariodni){}
+    @GetMapping("/{usuarioid}")
+    public void getUsuarioByID(@PathVariable("usuarioid") Long usuarioid){
+        usuarioService.getUsuarioByID(usuarioid);
+    }
 
     @PostMapping
-    public void saveUsuario(@RequestBody Usuario usuario){}
+    public void saveUsuario(@RequestBody Usuario usuario){
+        usuarioService.saveUsuario(usuario);
+    }
 
     @DeleteMapping("/usuarioid")
-    public void deleteUsuario(@PathVariable("usuarioid") Long usuarioid){}
+    public void deleteUsuario(@PathVariable("usuarioid") Long usuarioid){
+        usuarioService.deleteUsuario(usuarioid);
+    }
 
 }
