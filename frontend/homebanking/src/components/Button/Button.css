@@ -3,6 +3,7 @@
     height: 55px;
     margin-block: 16px;
     display: flex;
+    justify-content: center;
 }
 
 .btn-field{
