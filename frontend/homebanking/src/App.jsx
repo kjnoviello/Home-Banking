@@ -9,8 +9,8 @@ function App() {
       <h1>hello world</h1>
       
       {/* Voy cargando los componentes para ir viendo el render */}
-      <Input placeholder="Jorge Martinez" img="/icons/person.svg"></Input>
-      <Input placeholder="Clave Segura" img="/icons/Vector.svg"></Input>
+      <Input placeholder="Usuario" img="/icons/person.svg"></Input>
+      <Input placeholder="Clave Segura" type="password" img="/icons/Vector.svg" iconTrailing="/icons/trailing.svg" showIconTrailing="true"></Input>
       <Button title="Iniciar Sesión"></Button>
     </>
   )

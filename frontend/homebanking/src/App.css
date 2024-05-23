@@ -14,6 +14,9 @@
   --font-dark: #000000;
   --font-alt: #38614C;
 
+  /* color de placeholder */
+  --color-placeholder: #49454F;
+
   /* tipografia */
   --font-family-main: 'Roboto', sans-serif;
   --font-family-alt: 'Roboto-Slab', sans-serif;
