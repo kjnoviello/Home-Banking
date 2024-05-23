@@ -1,14 +1,19 @@
-import './App.css'
-import Input from './components/Input/Input'
-import Button from './components/Button/Button'
+import React from 'react';
+import './App.css';
 import InactivityComponent from './components/Inactivity/InactivityComponent'
-
+import NavBar from "./components/NavBar/NavBar";
+import Input from './components/Input/Input';
+import Button from './components/Button/Button';
 
 function App() {
 
+  const showAlert = () => {
+    
+  };
+
   return (
     <>
-
+      <NavBar />
       <h1>hello world</h1>
       
       {/* Voy cargando los componentes para ir viendo el render */}
@@ -23,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
