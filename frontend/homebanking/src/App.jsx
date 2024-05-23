@@ -1,6 +1,6 @@
-
 import React from 'react';
 import './App.css';
+import InactivityComponent from './components/Inactivity/InactivityComponent'
 import NavBar from "./components/NavBar/NavBar";
 import Input from './components/Input/Input';
 import Button from './components/Button/Button';
@@ -20,6 +20,10 @@ function App() {
       <Input placeholder="Jorge Martinez" img="/icons/person.svg"></Input>
       <Input placeholder="Clave Segura" img="/icons/Vector.svg"></Input>
       <Button title="Iniciar Sesión"></Button>
+          
+      <InactivityComponent />
+      
+    
     </>
   )
 }
