@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   
   .image-row img {
@@ -47,18 +47,19 @@
   
   .inactivity-content {
     background-color: var(--bg-root);
-    padding: 5rem;
+    padding: 2rem;
     border-radius: 20px;
     text-align: center;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
   }
   
   .inactivity-message {
-    margin-bottom: 1.5rem;
-    font-size: var(--size-pxl); /* Usando variable global */
+    margin-bottom: 1rem;
+    font-size: var(--size-pl); /* Usando variable global */
     color: var(--font-alt); /* Usando variable global */
   }
   
@@ -83,7 +84,7 @@
     }
   
     .inactivity-content {
-      width: 800px;
+      width: 90%;
       padding: 2rem;
     }
 
@@ -94,7 +95,7 @@
   @media (min-width: 768px) and (max-width: 1023px) {
     .inactivity-content {
       padding: 4rem;
-      max-width: 600px;
+      max-width: 65%;
     }
   }
   
@@ -107,16 +108,17 @@
     }
   
     .image-row {
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
   
     .inactivity-title {
       margin-top: 1rem;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   
     .content-row {
       margin-top: 1rem;
+      font-size: 0.5rem;
     }
   }
   
