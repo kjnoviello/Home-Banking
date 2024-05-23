@@ -12,7 +12,7 @@
     height: 100%;
     font-family: var(--font-family-main);
     font-size: var(--size-pl);
-    color: var(--font-light);
+    color: var(--color-placeholder);
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: var(--bg-card-dark);

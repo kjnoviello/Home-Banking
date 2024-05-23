@@ -13,6 +13,22 @@
     width: 15px;
     height: 15px;
   }
+  
+  .input-iconTrailing{
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 35px;
+    height: 25px;
+    background-color: var(--bg-card-dark);
+    border: none;
+  }
+
+  .input-iconTrailing:hover{
+    scale: 120%;
+    color: var(--color-placeholder);
+  }
 
   .input-field {
     width: 100%;
@@ -28,8 +44,7 @@
 
   .input-field::placeholder {
     text-align: center;
-    color: var(--font-light);
-
+    color: var(--color-placeholder);
   }
 
   .input-field:focus::placeholder {

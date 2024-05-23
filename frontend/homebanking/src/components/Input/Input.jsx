@@ -26,13 +26,20 @@ function Input(props) {
                 </span>
             )}
             <input
-                type="text"
+                type={props.type}
                 placeholder= {props.placeholder}
                 className="input-field"
                 onFocus={handleFocus}
                 onBlur={handleBlur}
                 onChange={handleInput}
             />
+
+            {props.showIconTrailing ? (
+                <button className="input-iconTrailing">
+                    <img src={props.iconTrailing} alt="" />
+                </button>) 
+                : 
+                ""}
         </div>
     );
 }
