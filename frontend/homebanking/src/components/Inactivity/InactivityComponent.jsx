@@ -38,11 +38,11 @@ const InactivityComponent = () => {
   return showInactivityScreen ? (
     <div className="inactivity-screen">
     <div className="image-row">
-     <img src={Check} alt="sesion_finish" />
+      <img src={Check} alt="sesion_finish" />
       <h2 className="inactivity-title">Sesión finalizada</h2>
     </div>  
-     <div className="content-row"> 
-     <div className="inactivity-content">
+      <div className="content-row"> 
+      <div className="inactivity-content">
         
         <div className="inactivity-message">
           <p> Por motivos de seguridad, hemos cerrado sesión de su cuenta. </p>
