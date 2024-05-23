@@ -6,7 +6,7 @@ const Button = (props) => {
         <div className='btn-container'>
             <button className='btn-field'>
                 {props.title}
-            </button>
+             </button>
         </div>
     )
 }
