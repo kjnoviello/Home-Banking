@@ -13,7 +13,11 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
+    "react-router-dom": "^6.23.1"
+=======
     "sweetalert2": "^11.11.0"
+>>>>>>> 2630dac74bf0a11563ab666808ceda0966e0f2ce
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
