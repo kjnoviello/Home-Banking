@@ -7,16 +7,14 @@ import Login from './pages/Login/Login';
 function App() {
 
   const showAlert = () => {
-    
+
   };
 
   return (
     <>
-      {/* Voy cargando los componentes para ir viendo el render */}
-      <NavBar />
-      
       <Login></Login>
-      {/* <InactivityComponent /> */}
+      <InactivityComponent />
+      <NavBar />  
     </>
   )
 }

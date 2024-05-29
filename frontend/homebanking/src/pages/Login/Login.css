@@ -9,19 +9,48 @@
 
 .main__title{
     color: var(--color-icon);
+    font-size: var(--size-h1);
     font-weight: 600;
     line-height: 24px;
 }
 
 .main__logo{
-    margin-inline: 17px;
-    width: 50%;
-    height: 50%;
+    margin-block: 17px;
+    width: 40%;
+    height: 40%;
+}
+
+.main__title-user{
+    font-size: var(--size-pl);
+    font-weight: 600;
+    color: var(--font-span);
+    line-height: 24px;
+}
+
+.main__forgot-pin{
+    font-family: var(--font-family-alt);
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--font-dark);
+    font-size: var(--size-p);
+}
+
+.empty{
+    height: 80px;
+}
+
+.main__help{
+    font-size: var(--size-ps);
+    font-weight: 600;
+    color: var(--font-span);
+    line-height: 24px;
+    margin-bottom: 27px;
+    cursor: pointer;
 }
 
 @media (min-width: 576px){
     .main__logo{
-        width: 374px;
+        width: 220px;
         height: auto;
     }
 }
