@@ -15,22 +15,23 @@
   --font-light: #FEF7FF;
   --font-dark: #000000;
   --font-alt: #38614C;
+  --font-span: #F6C648;
 
   /* color de placeholder */
   --color-placeholder: #49454F;
+  --color-icon: #6D8855;
 
   /* tipografia */
   --font-family-main: 'Roboto', sans-serif;
   --font-family-alt: 'Roboto-Slab', sans-serif;
 
   /* tamaño de fuente */
-  --size-h1: 25px;
+  --size-h1: 24px;
   --size-p: 16px;
   --size-pxs: 10px;
   --size-ps: 14px;
   --size-pl: 18px;
   --size-pxl:22px;
-
 }
 
 html{
