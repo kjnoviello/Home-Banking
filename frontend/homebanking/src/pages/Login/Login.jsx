@@ -10,7 +10,7 @@ const Login = () => {
 
     return (
         <main className="main">
-            <h1 className="main__title">Saint Patrick Bank</h1>
+            <h1 className="main__title">Elias bank</h1>
             <div className="main__logo-container">
                 <img className="main__logo" src="logo01.png" alt="logo del banco" />
             </div>
