@@ -1,0 +1,55 @@
+.nav-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-block: 12px;
+    background-image: linear-gradient(
+        90deg,
+        hsl(40deg 43% 99%) 2%,
+        hsl(40deg 72% 97%) 39%,
+        hsl(40deg 80% 95%) 51%,
+        hsl(41deg 83% 93%) 58%,
+        hsl(41deg 85% 91%) 64%,
+        hsl(41deg 86% 89%) 68%,
+        hsl(41deg 87% 87%) 72%,
+        hsl(41deg 88% 85%) 74%,
+        hsl(41deg 89% 83%) 77%,
+        hsl(42deg 89% 81%) 79%,
+        hsl(42deg 89% 79%) 81%,
+        hsl(42deg 90% 77%) 83%,
+        hsl(42deg 90% 75%) 85%,
+        hsl(42deg 90% 74%) 87%,
+        hsl(43deg 90% 72%) 89%,
+        hsl(43deg 90% 70%) 91%,
+        hsl(43deg 90% 68%) 93%,
+        hsl(43deg 90% 66%) 95%,
+        hsl(43deg 91% 64%) 97%,
+        hsl(43deg 91% 62%) 100%
+        );
+}
+
+.nav-header__left, .nav-header__right{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.nav-header__left{
+    justify-content: first baseline;
+}
+
+.nav-header__right{
+    justify-content: space-evenly;
+}
+
+.nav-header__button{
+    border: none;
+    background-color: transparent;
+}
+
+.nav-header__title{
+    color: var(--font-alt);
+}
