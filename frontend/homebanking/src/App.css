@@ -22,8 +22,8 @@
   --color-icon: #6D8855;
 
   /* tipografia */
-  --font-family-main: 'Roboto', sans-serif;
-  --font-family-alt: 'Roboto-Slab', sans-serif;
+  --font-family-main: 'Roboto';
+  --font-family-alt: 'Roboto-Slab';
 
   /* tamaño de fuente */
   --size-h1: 24px;
