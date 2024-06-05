@@ -18,7 +18,7 @@ function App() {
       <NavHeader></NavHeader>
     </div>
       <Login></Login>
-      {/* <InactivityComponent /> */}
+      <InactivityComponent />
       <NavBar />  
     </>
   )
