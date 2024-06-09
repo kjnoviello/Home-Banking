@@ -33,6 +33,7 @@
   .input-field {
     width: 100%;
     height: 100%;
+    font-family: var(--font-family-alt);
     font-size: var(--size-pl);
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -44,7 +45,8 @@
 
   .input-field::placeholder {
     text-align: center;
-    color: var(--color-placeholder);
+    color: var(--font-dark);
+    font-family: var(--font-family-alt);
   }
 
   .input-field:focus::placeholder {

@@ -15,22 +15,23 @@
   --font-light: #FEF7FF;
   --font-dark: #000000;
   --font-alt: #38614C;
+  --font-span: #F6C648;
 
   /* color de placeholder */
   --color-placeholder: #49454F;
+  --color-icon: #6D8855;
 
   /* tipografia */
-  --font-family-main: 'Roboto', sans-serif;
-  --font-family-alt: 'Roboto-Slab', sans-serif;
+  --font-family-main: 'Roboto';
+  --font-family-alt: 'Roboto-Slab';
 
   /* tamaño de fuente */
-  --size-h1: 25px;
+  --size-h1: 24px;
   --size-p: 16px;
   --size-pxs: 10px;
   --size-ps: 14px;
   --size-pl: 18px;
   --size-pxl:22px;
-
 }
 
 html{
@@ -40,6 +41,11 @@ html{
   width: 100%;
   height: 100%;
 }
+
+/* body{
+  margin: 0;
+  padding: 0;
+} */
 
 body{
   /* margen generales para toda página */
@@ -52,3 +58,7 @@ h1{
   color: var(--font-alt);
 }
 
+.nav-header__container{
+  margin: 0;
+  padding: 0;
+}

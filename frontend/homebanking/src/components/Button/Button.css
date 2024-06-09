@@ -12,15 +12,14 @@
     height: 100%;
     font-family: var(--font-family-main);
     font-size: var(--size-pl);
-    color: var(--color-placeholder);
+    color: var(--font-dark);
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: var(--bg-card-dark);
 }
 
 .btn-field:hover{
-    background-color: var(--bg-card-light);
-    color: var(--font-dark);
+    color: var(--font-light);
 }
 
 @media (min-width: 576px) {
