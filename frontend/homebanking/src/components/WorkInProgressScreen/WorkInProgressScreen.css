@@ -1,0 +1,57 @@
+.construction-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-items: center;
+    z-index: 9999; /* Asegura que la pantalla de inactividad esté en la parte superior */
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .construction-title{
+    color: black;
+  }
+  .construction-text{
+    font-size: var(--size-ps);
+    font-family: var(--font-family-alt);
+    color: #000000;
+
+  }
+
+  .btn-field{
+    color: #FFFFFF;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+  }
+
+  .back-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    color: black; /* Color del enlace */
+    text-decoration: none; /* Subrayado para simular un enlace */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button:hover {
+    color: var(--color-main); /* Cambia el color al pasar el ratón */
+  }
+  
+  .back-button .icon {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+  
