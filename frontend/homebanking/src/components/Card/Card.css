@@ -1,0 +1,80 @@
+.card{
+    background-image: linear-gradient(
+        180deg,
+        hsl(43deg 91% 62%) 23%,
+        hsl(43deg 91% 66%) 50%,
+        hsl(43deg 90% 69%) 57%,
+        hsl(43deg 90% 72%) 63%,
+        hsl(42deg 90% 74%) 68%,
+        hsl(42deg 89% 77%) 73%,
+        hsl(42deg 87% 80%) 79%,
+        hsl(42deg 85% 82%) 85%,
+        hsl(42deg 82% 85%) 92%,
+        hsl(42deg 78% 88%) 100%
+    );
+    border-radius: 20px;
+    padding-inline: 26px;
+    margin-block: 22px;
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 12px; */
+}
+
+.card__title{
+    font-family: var(--font-family-alt);
+    font-size: 18px;
+    color: var(--font-alt);
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-block: 15px;
+}
+
+.card__logo-container{
+    align-items: center;
+    display: flex;
+}
+
+.card__balance{
+    font-family: var(--font-family-main);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.card__details{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.card__number{
+    font-family: var(--font-family-main);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    }
+
+.card__expiry{
+    margin-bottom: 12px;
+}
+
+.card__expiry-label, .card__expiry-date{
+    margin-bottom: 5px;
+    font-family: var(--font-family-main);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.card__expiry-date{
+    margin-top: 5px;
+    font-size: 18px;
+}

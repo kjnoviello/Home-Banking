@@ -1,0 +1,9 @@
+.tarjetas__title{
+    font-family: var(--font-family-alt);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    padding-inline: 16px;
+    margin-top: 56px;
+}
