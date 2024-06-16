@@ -5,8 +5,8 @@ const NavHeader = () => {
     return (
         <article className="nav-header">
             <div className="nav-header__left">
-                <button className="nav-header__button nav-header__button--back">
-                    <img src="/icons/back.png" alt="atrás" className="nav-header__iconBack" />
+                <button className="nav-header__button ">
+                    <img src="/icons/arrow_left.png" alt="atrás" className="" />
                 </button>
                 <h3 className="nav-header__title">Mi Actividad</h3>
             </div>
