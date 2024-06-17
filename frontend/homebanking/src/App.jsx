@@ -3,8 +3,6 @@ import InactivityComponent from './components/Inactivity/InactivityComponent';
 import NavBar from "./components/NavBar/NavBar";
 import Login from './pages/Login/Login';
 import NavHeader from './components/NavHeader/NavHeader';
-// import Input from './components/Input/Input';
-// import Button from './components/Button/Button';
 import WorkInProgressScreen from './components/WorkInProgressScreen/WorkInProgressScreen';
 import Tarjetas from './pages/Tarjetas/Tarjetas';
 

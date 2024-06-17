@@ -1,4 +1,3 @@
-import React from 'react';
 import './WorkInProgressScreen.css'; // Estilos CSS para el componente
 import Construction from '../../assets/warning.svg';
 import Back from '../../assets/back.svg';
@@ -33,7 +32,7 @@ const WorkInProgressScreen = ({ onBackButtonClick }) => {
       
       {/* Fila 5: Botón Volver */}
       <div className="row">
-      <Button title="Volver" className="btn-field" />
+      <Button title="Volver"/>
       </div>
     </div>
   );
