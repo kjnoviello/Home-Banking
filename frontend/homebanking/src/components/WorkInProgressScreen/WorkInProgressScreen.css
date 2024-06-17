@@ -21,18 +21,6 @@
     font-size: var(--size-ps);
     font-family: var(--font-family-alt);
     color: #000000;
-
-  }
-
-  .btn-field{
-    color: #FFFFFF;
-    font-family: Roboto Flex;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: center;
-
   }
 
   .back-button {
@@ -54,4 +42,3 @@
   .back-button .icon {
     margin-right: 5px; /* Espacio entre el icono y el texto */
   }
-  
