@@ -1,0 +1,18 @@
+.detailContainer{
+    border-radius: 12px;
+    background-color: var(--bg-root);
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-block: 50px;
+}
+
+.detailContainer__origin, .detailContainer__destiny{
+    width: 50%;
+    text-align: center;
+}
+
+.detailContainer__gap{
+    width: 3px;
+    background-color: var(--bg-card-dark);
+}

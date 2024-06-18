@@ -1,0 +1,21 @@
+.detailStatus__container{
+    border-radius: 12px;
+    background-color: var(--bg-root);
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-block: 50px;
+}
+
+.detailStatus{
+    text-align: center;
+    width: 100%;
+}
+
+.detailStatus__title{
+    font-family: var(--font-family-alt);
+    font-size: var(--size-pxl);
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}

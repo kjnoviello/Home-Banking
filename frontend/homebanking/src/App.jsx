@@ -5,6 +5,7 @@ import Login from './pages/Login/Login';
 import NavHeader from './components/NavHeader/NavHeader';
 import WorkInProgressScreen from './components/WorkInProgressScreen/WorkInProgressScreen';
 import Tarjetas from './pages/Tarjetas/Tarjetas';
+import Ticket from './pages/Ticket/Ticket';
 
 function App() {
   const showAlert = () => {
@@ -19,6 +20,7 @@ function App() {
       <Login />
       <InactivityComponent />
       <Tarjetas></Tarjetas>
+      <Ticket></Ticket>
       <NavBar />
       {/* <WorkInProgressScreen /> */}
     </>
