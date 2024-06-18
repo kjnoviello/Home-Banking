@@ -1,0 +1,17 @@
+.detail-options{
+    background-color: var(--bg-card-dark);
+    border-radius: 12px;
+    padding-inline: 26px;
+    margin-block: 22px;
+    margin-inline: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.detail-options__button{
+    background-color: var(--bg-card-dark);
+    border: none;
+    cursor: pointer;
+}
