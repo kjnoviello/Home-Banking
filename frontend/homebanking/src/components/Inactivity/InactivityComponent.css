@@ -10,7 +10,7 @@
     grid-template-rows: auto 1fr;
     align-items: center;
     justify-items: center;
-    z-index: 9999; /* Asegura que la pantalla de inactividad esté en la parte superior */
+    z-index: 99999; /* Asegura que la pantalla de inactividad esté en la parte superior */
     padding: 1rem;
     box-sizing: border-box;
   }
