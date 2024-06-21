@@ -15,10 +15,9 @@ const HomeActivityContainer = () => {
           </div>
         </div>
       </div>
-      <HomeActivity />
-      <HomeActivity />
-      <HomeActivity />
-      <div className='empty'></div>
+      <HomeActivity name="Adrián Ferrero" date="20 de abril 9:15 hs" amount="+$2000"/>
+      <HomeActivity name="Pablo Loy" date="19 de abril 9:00 hs" amount="-$1000"/>
+      <HomeActivity name="Sofía Belén" date="17 de abril 12:23 hs" amount="-$1500"/>
     </div>
   )
 }
