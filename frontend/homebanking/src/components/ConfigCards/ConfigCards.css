@@ -1,11 +1,11 @@
 .configCards{
-background-color: white;
-border-radius: 12px;
-padding-inline: 26px;
-margin-block: 22px;
-margin-bottom: 22px;
-box-shadow: 0px 1px 3px 1px #00000026;
-box-shadow: 0px 1px 2px 0px #0000004D;
+    background-color: white;
+    border-radius: 12px;
+    padding-inline: 26px;
+    margin-block: 22px;
+    margin-bottom: 22px;
+    box-shadow: 0px 1px 3px 1px #00000026;
+    box-shadow: 0px 1px 2px 0px #0000004D;
 }
 
 .configCards__title{
