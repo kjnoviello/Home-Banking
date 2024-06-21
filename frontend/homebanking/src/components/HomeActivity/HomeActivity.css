@@ -1,0 +1,56 @@
+.home-activity{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-inline: -20px;
+    padding-inline: 20px;
+    margin-block: 20px;
+}
+
+.home-activity__content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-activity__details{
+    text-align: left;
+}
+
+.home-activity__user{
+    margin-block: 5px;
+    font-family: var(--font-family-main);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.home-activity__date{
+    margin-block: 5px;
+    font-family: var(--font-family-main);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.home-activity__amount{
+    background-color: var(--bg-card-dark);
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.home-activity__amount-value{
+    font-family: var(--font-family-main);
+    margin-block: 0px;
+    width: 100%;
+    font-size: var(--font-h1);
+}

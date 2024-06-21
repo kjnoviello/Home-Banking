@@ -6,7 +6,7 @@ import NavHeader from './components/NavHeader/NavHeader';
 import WorkInProgressScreen from './components/WorkInProgressScreen/WorkInProgressScreen';
 import Tarjetas from './pages/Tarjetas/Tarjetas';
 import Ticket from './pages/Ticket/Ticket';
-import HomeWelcome from './components/HomeWelcome/HomeWelcome';
+import Home from './pages/Home/Home';
 
 function App() {
   const showAlert = () => {
@@ -21,7 +21,7 @@ function App() {
       <Login />
       <Tarjetas></Tarjetas>
       <Ticket></Ticket>
-      <HomeWelcome></HomeWelcome>
+      <Home></Home>
       {/* <NavBar /> */}
       {/* <InactivityComponent /> */}
       {/* <WorkInProgressScreen /> */}
