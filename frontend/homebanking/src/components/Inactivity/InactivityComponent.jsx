@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './InactivityComponent.css';
 import Check from '../../assets/Vector.png';
 import Button from '../Button/Button';
@@ -6,32 +6,28 @@ import Button from '../Button/Button';
 
 const InactivityComponent = () => {
   const [showInactivityScreen, setShowInactivityScreen] = useState(false);
-  const [timeoutId, setTimeoutId] = useState(null);
+  let timeoutId;
   
+  const handleInactivity = () => {
+    setShowInactivityScreen(true);
+  };
+
+  const resetTimeout = () => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(handleInactivity, 10000) // 10 seg para prueba, en produccion usar 1 o 2 min.
+  };
 
   useEffect(() => {
-    const handleInactivity = () => {
-      setShowInactivityScreen(true);
-    };
-
-    const resetTimeout = () => {
-      clearTimeout(timeoutId);
-      setTimeoutId(setTimeout(handleInactivity, 10000)); // 10 segundos para pruebas (ajusta según necesidad)
-    };
-
     resetTimeout();
 
     const events = ['mousemove', 'keydown', 'touchstart', 'scroll'];
-
     events.forEach(event => window.addEventListener(event, resetTimeout));
-
-    
 
     return () => {
       clearTimeout(timeoutId);
       events.forEach(event => window.removeEventListener(event, resetTimeout));
     };
-  }, [timeoutId]);
+  });
 
   const handleLogin = () => {
     // Aquí puedes agregar la lógica para volver a iniciar sesión

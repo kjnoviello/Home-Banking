@@ -19,7 +19,7 @@
 }
 
 .btn-field:hover{
-    background-color: var(--bg-card-light);
+    color: var(--font-light);
 }
 
 @media (min-width: 576px) {

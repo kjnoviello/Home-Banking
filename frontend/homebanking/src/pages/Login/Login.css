@@ -25,14 +25,20 @@
     font-weight: 600;
     color: var(--font-span);
     line-height: 24px;
+    font-family: var(--font-family-alt);
 }
 
 .main__forgot-pin{
-    font-family: var(--font-family-alt);
+    font-family: var(--font-family-main);
     font-weight: 500;
     line-height: 20px;
     color: var(--font-dark);
     font-size: var(--size-p);
+    cursor: pointer;
+}
+
+.main__forgot-pin:hover{
+    text-decoration: underline;
 }
 
 .empty{
@@ -40,12 +46,18 @@
 }
 
 .main__help{
+    font-family: var(--font-family-main);
     font-size: var(--size-ps);
     font-weight: 600;
     color: var(--font-span);
     line-height: 24px;
     margin-bottom: 27px;
     cursor: pointer;
+}
+
+.main__help:hover{
+    color: var(--font-dark);
+    text-decoration: underline;
 }
 
 @media (min-width: 576px){

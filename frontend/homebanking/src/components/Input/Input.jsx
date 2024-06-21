@@ -46,10 +46,13 @@ function Input(props) {
 
             {props.showIconTrailing ? (
                 <button type="button" className="input-iconTrailing" onClick={togglePasswordVisible}>
-                    <img src={props.iconTrailing} alt="icono de visibilidad" />
+                    {inputType==="password" ? (
+                        <img src={props.iconTrailingOff} alt="icono de visibilidad off" />) 
+                        :
+                        <img src={props.iconTrailing} alt="icono de visibilidad " />}
                 </button>) 
                 : 
-                ""}
+                "" }
         </div>
     );
 }

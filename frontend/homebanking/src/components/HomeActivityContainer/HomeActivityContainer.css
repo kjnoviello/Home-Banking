@@ -1,0 +1,35 @@
+.home-activity__container{
+    background-image: linear-gradient(
+    180deg,
+    hsl(91deg 29% 67%) 0%,
+    hsl(85deg 29% 70%) 10%,
+    hsl(79deg 29% 73%) 13%,
+    hsl(74deg 30% 77%) 15%,
+    hsl(68deg 30% 80%) 18%,
+    hsl(63deg 30% 84%) 21%,
+    hsl(58deg 32% 87%) 26%,
+    hsl(53deg 37% 91%) 33%,
+    hsl(49deg 45% 95%) 46%,
+    hsl(45deg 100% 99%) 85%
+    );
+    border-radius: 20px;
+    padding-inline: 26px;
+    margin-block: 22px;
+}
+
+.home-activity__title{
+    color: var(--font-dark);
+}
+
+.home-activity__item{
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.home-activity__imgContainer{
+    align-items: center;  
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
