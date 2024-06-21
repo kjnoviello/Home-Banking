@@ -16,7 +16,7 @@ const Login = () => {
             </div>
             <span className='main__title-user'>Bienvenido, José</span>
             <Input placeholder="Usuario" img="/icons/person.png"></Input>
-            <Input placeholder="Clave Segura" type="password" img="/icons/Vector.png" iconTrailing="/icons/trailing.png" iconTrailingOff="/icons/trailingOff.png" showIconTrailing="true"></Input>
+            <Input placeholder="Clave Segura" type="password" img="/icons/lock.png" iconTrailing="/icons/trailing.png" iconTrailingOff="/icons/trailingOff.png" showIconTrailing="true"></Input>
             <p className='main__forgot-pin'>¿Ha olvidado su PIN?</p>
             <Button title="Iniciar Sesión"></Button>
             <div className='empty'></div>

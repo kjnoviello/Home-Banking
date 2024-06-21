@@ -10,7 +10,7 @@ const HomeWelcome = () => {
     return (
         <main className='home-container'>
             <NavHeader user="Bienvenido, José" classHome="true"></NavHeader>
-            <HomeBalance></HomeBalance>
+            <HomeBalance number="70000.00"></HomeBalance>
             <HomeOptions></HomeOptions>
         </main>
     )
