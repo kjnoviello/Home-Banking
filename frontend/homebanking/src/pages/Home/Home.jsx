@@ -11,8 +11,16 @@ const Home = () => {
             <HomeWelcome></HomeWelcome>
             <HomeActivity></HomeActivity>
             <div className='homeOptions-Container'>
-                <HomeOptions icon="/icons/heart_card.png" label="A otras cuentas"></HomeOptions>
-                <HomeOptions icon="/icons/add_card.png" label="A mis cuentas"></HomeOptions>
+                <HomeOptions 
+                    icon="/icons/heart_card.png" 
+                    label="A otras cuentas"
+                    route="/ticket">
+                </HomeOptions>
+                <HomeOptions 
+                    icon="/icons/add_card.png" 
+                    label="A mis cuentas"
+                    route="/tarjetas">
+                </HomeOptions>
             </div>
             <div className='empty'></div>
         </>

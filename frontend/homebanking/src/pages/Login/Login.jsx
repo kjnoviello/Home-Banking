@@ -3,9 +3,9 @@ import React from 'react'
 import Input from '../../components/Input/Input'
 import Button from '../../components/Button/Button'
 import './Login.css'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
-
 
 
     return (
@@ -18,7 +18,9 @@ const Login = () => {
             <Input placeholder="Usuario" img="/icons/person.png"></Input>
             <Input placeholder="Clave Segura" type="password" img="/icons/lock.png" iconTrailing="/icons/trailing.png" iconTrailingOff="/icons/trailingOff.png" showIconTrailing="true"></Input>
             <p className='main__forgot-pin'>¿Ha olvidado su PIN?</p>
-            <Button title="Iniciar Sesión"></Button>
+            <Link to="/home">
+                <Button color="true" title="Iniciar Sesión"></Button>
+            </Link>
             <div className='empty'></div>
             <span className='main__help'>¿Necesita ayuda? </span> 
             <div className='empty'></div>

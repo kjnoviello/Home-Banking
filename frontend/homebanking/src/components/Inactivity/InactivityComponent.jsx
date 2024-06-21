@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import './InactivityComponent.css';
 import Check from '../../assets/Vector.png';
 import Button from '../Button/Button';
+import './InactivityComponent.css';
+import { Link } from 'react-router-dom';
 
 
 const InactivityComponent = () => {
@@ -30,7 +31,9 @@ const InactivityComponent = () => {
   });
 
   const handleLogin = () => {
-    // Aquí puedes agregar la lógica para volver a iniciar sesión
+    setShowInactivityScreen(false);
+    resetTimeout()
+    
     console.log('Volver a iniciar sesión');
         
   };
@@ -47,7 +50,9 @@ const InactivityComponent = () => {
             <p>Por motivos de seguridad, hemos cerrado sesión de su cuenta.</p>
             <p>Si desea volver a Iniciar sesión, haga click en el botón que se encuentra debajo. Agradecemos su comprensión y colaboración en el cuidado de su privacidad.</p>
           </div>
-          <Button title="Volver a ingresar" onClick={handleLogin} className="btn-field" />
+          <Link to="/login">
+            <Button title="Volver a ingresar" onClick={()=>handleLogin()} className="btn-field" />
+          </Link>
         </div>
       </div>
     </div>

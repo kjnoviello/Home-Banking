@@ -15,6 +15,9 @@
     color: var(--font-dark);
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+
+#btn-field__login{
     background-color: var(--bg-card-dark);
 }
 
