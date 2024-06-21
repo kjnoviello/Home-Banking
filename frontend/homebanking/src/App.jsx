@@ -6,6 +6,7 @@ import NavHeader from './components/NavHeader/NavHeader';
 import WorkInProgressScreen from './components/WorkInProgressScreen/WorkInProgressScreen';
 import Tarjetas from './pages/Tarjetas/Tarjetas';
 import Ticket from './pages/Ticket/Ticket';
+import Home from './pages/Home/Home';
 
 function App() {
   const showAlert = () => {
@@ -15,13 +16,14 @@ function App() {
   return (
     <>
       <div className='nav-header__container'>
-        <NavHeader />
+        <NavHeader title="Mi Actividad" userPic="/public/icons/user"/>
       </div>
       <Login />
-      <InactivityComponent />
       <Tarjetas></Tarjetas>
       <Ticket></Ticket>
-      <NavBar />
+      <Home></Home>
+      {/* <NavBar /> */}
+      {/* <InactivityComponent /> */}
       {/* <WorkInProgressScreen /> */}
     </>
   );
