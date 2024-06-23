@@ -8,8 +8,8 @@ const Home = () => {
 
     return (
         <>
-            <HomeWelcome></HomeWelcome>
-            <HomeActivity></HomeActivity>
+            <HomeWelcome />
+            <HomeActivity />
             <div className='homeOptions-Container'>
                 <HomeOptions 
                     icon="/icons/heart_card.png" 
