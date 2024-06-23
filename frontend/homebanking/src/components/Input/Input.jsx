@@ -31,6 +31,9 @@ function Input(props) {
         setInputType((toogleType) => (toogleType === 'password' ? 'text' : 'password'));
     }
 
+    //!TO DO
+    //! HACER QUE EN EL BUSCADOR AL IR INGRESANDO LETRAS VAYA APARECIENDO LOS RESULTADOS FILTRADOS
+
     return (
         <div className="input-container">
             {iconVisible && isInputEmpty && (
