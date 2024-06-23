@@ -27,16 +27,22 @@ const Router = () => {
             <ScrollToTop />
             {/* <InactivityComponent /> */}
             <Routes>
-                <Route path='/' element={<Login />} />
-                <Route path='/home' element={<Home />} />
-                <Route path='/*' element={<WorkInProgressScreen />} />
+                <Route path='/' element={
+                    <Login />
+                } />
+                <Route path='/home' element={
+                    <Home />
+                } />
+                <Route path='/*' element={
+                    <WorkInProgressScreen />
+                } />
                 <Route path='/ticket' element={
-                        <>
-                            <NavHeader 
-                                title="Comprobante" 
-                                userPic="/public/icons/user"/>
-                            <Ticket />
-                        </>
+                    <>
+                        <NavHeader 
+                            title="Comprobante" 
+                            userPic="/public/icons/user"/>
+                        <Ticket />
+                    </>
                 }/>
                 <Route path='/tarjetas' element={
                     <>
@@ -48,12 +54,12 @@ const Router = () => {
                 }/>
                 <Route path='/history' element={
                     <>
-                    <NavHeader 
-                        title="Mi Actividad" 
-                        userPic="/public/icons/user"/>
-                    <Transaction />
-                </>
-                    } />
+                        <NavHeader 
+                            title="Mi Actividad" 
+                            userPic="/public/icons/user"/>
+                        <Transaction />
+                    </>
+                } />
                 
             </Routes>
         </BrowserRouter>
