@@ -15,7 +15,7 @@ const InactivityComponent = () => {
 
   const resetTimeout = () => {
     clearTimeout(timeoutId);
-    timeoutId = setTimeout(handleInactivity, 10000) // 10 seg para prueba, en produccion usar 1 o 2 min.
+    timeoutId = setTimeout(handleInactivity, 15000) // 15 seg para prueba segun descripcion del trabajo
   };
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const InactivityComponent = () => {
             <p>Por motivos de seguridad, hemos cerrado sesión de su cuenta.</p>
             <p>Si desea volver a Iniciar sesión, haga click en el botón que se encuentra debajo. Agradecemos su comprensión y colaboración en el cuidado de su privacidad.</p>
           </div>
-          <Link to="/login">
+          <Link to="/">
             <Button title="Volver a ingresar" onClick={()=>handleLogin()} className="btn-field" />
           </Link>
         </div>

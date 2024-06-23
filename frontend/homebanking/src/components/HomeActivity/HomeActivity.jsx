@@ -2,12 +2,12 @@
 // import React from 'react'
 import './HomeActivity.css'
 
-const HomeActivity = ({name, date, amount}) => {
+const HomeActivity = ({icon, name, date, amount}) => {
     return (
         <div className="home-activity">
             <div className='home-activity__content'>
                 <div className="home-activity__icon">
-                    <img src="/icons/credit_card.png" alt="credit card" />
+                    <img src={icon} alt="credit card" />
                 </div>
                 <div className="home-activity__details">
                     <h6 className="home-activity__user">{name}</h6>
