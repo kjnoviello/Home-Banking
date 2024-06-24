@@ -14,7 +14,7 @@ const Home = () => {
                 <HomeOptions 
                     icon="/icons/heart_card.png" 
                     label="A otras cuentas"
-                    route="/ticket">
+                    route="/notfound">
                 </HomeOptions>
                 <HomeOptions 
                     icon="/icons/add_card.png" 

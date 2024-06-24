@@ -12,13 +12,15 @@
     height: 100%;
     font-family: var(--font-family-main);
     font-size: var(--size-pl);
-    color: var(--font-dark);
     border: 1px solid #ccc;
     border-radius: 8px;
+    font-weight: 600;
+    color: var(--font-light);
 }
 
 #btn-field__login{
     background-color: var(--bg-card-dark);
+    color: var(--font-dark);
 }
 
 .btn-field:hover{

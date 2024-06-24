@@ -37,6 +37,10 @@
     display: flex;
 }
 
+.card__logo{
+    padding-top: 12px;
+}
+
 .card__balance{
     font-family: var(--font-family-main);
     font-size: 20px;
