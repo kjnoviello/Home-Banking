@@ -13,7 +13,7 @@ const NavHeader = ({user, userPic, title, classHome}) => {
     return (
         <article className={navHeaderClass}>
             <div className="nav-header__left">
-                <button onClick={()=>{navigate(-1)} } className="nav-header__button ">
+                <button onClick={()=>{classHome ? "" : navigate(-1)} } className="nav-header__button ">
                     {pics}
                 </button>
                 <h3 className="nav-header__title">{titleNavHeader}</h3>

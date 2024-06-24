@@ -7,7 +7,8 @@ import InactivityComponent from '../components/Inactivity/InactivityComponent';
 import Ticket from '../pages/Ticket/Ticket';
 import Tarjetas from '../pages/Tarjetas/Tarjetas';
 import NavHeader from '../components/NavHeader/NavHeader';
-import Transaction from '../pages/History/History';
+import Transaction from '../pages/Transaction/Transaction';
+import History from '../pages/History/History';
 import { useEffect } from 'react';
 import Confirmation from '../pages/Confirmation/Confirmation';
 
@@ -64,7 +65,7 @@ const Router = () => {
                         <NavHeader 
                             title="Mi Actividad" 
                             userPic="/public/icons/user"/>
-                        <Transaction />
+                        <History />
                     </>
                 } />
                 <Route path='/confirmation' element={
@@ -73,6 +74,14 @@ const Router = () => {
                             title="Confirmación" 
                             userPic="/public/icons/user"/>
                         <Confirmation />
+                    </>
+                } />
+                <Route path='/transaction' element={
+                    <>
+                        <NavHeader 
+                            title="Enviar dinero" 
+                            userPic="/public/icons/user"/>
+                        <Transaction />
                     </>
                 } />
                 

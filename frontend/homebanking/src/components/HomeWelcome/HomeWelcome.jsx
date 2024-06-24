@@ -9,7 +9,7 @@ const HomeWelcome = () => {
 
     return (
         <main className='home-container'>
-            <NavHeader 
+            <NavHeader
                 user="Bienvenido, José" 
                 classHome="true">
             </NavHeader>
@@ -25,7 +25,7 @@ const HomeWelcome = () => {
                 <HomeOptions 
                     icon="/icons/transfer.png" 
                     label="Transferir" 
-                    route="/notfound">
+                    route="/transaction">
                 </HomeOptions>
                 <HomeOptions 
                     icon="/icons/rest_card.png" 
