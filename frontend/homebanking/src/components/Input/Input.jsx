@@ -7,7 +7,7 @@ function Input(props) {
     const [isInputEmpty, setIsInputEmpty] = useState(true);
     const [inputType, setInputType] = useState(props.type);
 
-    // Class for search in transaction page
+    // Class for search in history page
     const classSearchField = props.classSearchField ? "search-field" : "input-field";
     const classSearchIcon = props.classSearchIcon ? "search-icon" : "input-icon";
 
@@ -30,9 +30,6 @@ function Input(props) {
     const togglePasswordVisible = () => {
         setInputType((toogleType) => (toogleType === 'password' ? 'text' : 'password'));
     }
-
-    //!TO DO
-    //! HACER QUE EN EL BUSCADOR AL IR INGRESANDO LETRAS VAYA APARECIENDO LOS RESULTADOS FILTRADOS
 
     return (
         <div className="input-container">

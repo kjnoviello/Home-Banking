@@ -8,7 +8,7 @@
 
 .btn-field{
     cursor: pointer;
-    width: 100%;
+    width: 70%;
     height: 100%;
     font-family: var(--font-family-main);
     font-size: var(--size-pl);
@@ -21,6 +21,7 @@
 #btn-field__login{
     background-color: var(--bg-card-dark);
     color: var(--font-dark);
+    width: 100%;
 }
 
 .btn-field:hover{

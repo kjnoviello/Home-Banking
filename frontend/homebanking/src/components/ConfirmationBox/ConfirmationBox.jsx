@@ -2,9 +2,11 @@
 // import React from 'react'
 import './ConfirmationBox..css'
 
-const ConfirmationBox = ({icon, amount, origin}) => {
+const ConfirmationBox = ({icon, amount, origin, transaction}) => {
+    const transactionClass = transaction ? "confirmationBox" : "card"
+
     return (
-        <article className="card">
+        <article className={transactionClass}>
 
             {origin ? 
                 <div className="card__header confirmationBox__header">
