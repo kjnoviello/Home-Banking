@@ -40,6 +40,7 @@
   display: flex;
   text-align: center;
   padding: 0px;
+  font-weight: 600;
 }
 
 .input-field::placeholder {
@@ -79,12 +80,14 @@
   display: flex;
   text-align: center;
   padding: 10px;
+  font-weight: 600;
 }
 
 .search-field::placeholder {
   text-align: center;
   color: var(--font-dark);
   font-family: var(--font-family-alt);
+  
 }
 
 .search-field:focus::placeholder {

@@ -30,7 +30,7 @@ const HomeWelcome = () => {
                 <HomeOptions 
                     icon="/icons/rest_card.png" 
                     label="Sacar Saldo" 
-                    route="/notfound">
+                    route="/confirmation">
                 </HomeOptions>
             </div>
         </main>

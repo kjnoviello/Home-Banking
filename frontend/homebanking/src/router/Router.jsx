@@ -9,6 +9,7 @@ import Tarjetas from '../pages/Tarjetas/Tarjetas';
 import NavHeader from '../components/NavHeader/NavHeader';
 import Transaction from '../pages/History/History';
 import { useEffect } from 'react';
+import Confirmation from '../pages/Confirmation/Confirmation';
 
 
 const Router = () => {
@@ -36,6 +37,10 @@ const Router = () => {
                 <Route path='/*' element={
                     <WorkInProgressScreen />
                 } />
+
+
+
+                {/******** SACAR NAVHEADER CUANDO ESTE EL NAVBAR *********/}
                 <Route path='/ticket' element={
                     <>
                         <NavHeader 
@@ -44,6 +49,8 @@ const Router = () => {
                         <Ticket />
                     </>
                 }/>
+
+
                 <Route path='/tarjetas' element={
                     <>
                         <NavHeader 
@@ -58,6 +65,14 @@ const Router = () => {
                             title="Mi Actividad" 
                             userPic="/public/icons/user"/>
                         <Transaction />
+                    </>
+                } />
+                <Route path='/confirmation' element={
+                    <>
+                        <NavHeader 
+                            title="Confirmación" 
+                            userPic="/public/icons/user"/>
+                        <Confirmation />
                     </>
                 } />
                 

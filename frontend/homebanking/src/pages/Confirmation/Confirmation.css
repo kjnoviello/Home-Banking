@@ -1,0 +1,25 @@
+.confirmation-container{
+    text-align: center;
+}
+
+.confirmationBox-origin{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.confirmationBox__header{
+    justify-content: left;
+    gap: 12px;
+}
+
+.confirmationBox__logo{
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+}
+
+.confirmationBox__button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
