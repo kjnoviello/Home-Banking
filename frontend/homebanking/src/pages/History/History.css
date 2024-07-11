@@ -1,0 +1,27 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-header{
+    display: flex;
+    text-align: center;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.search-title{
+    font-family: var(--font-family-alt);
+    font-size: var(--size-pl);
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    padding-inline: 22px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.search-title__color{
+    color: var(--bg-bottom);
+}

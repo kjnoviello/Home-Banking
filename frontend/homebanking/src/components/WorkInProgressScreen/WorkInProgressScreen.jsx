@@ -2,15 +2,18 @@ import './WorkInProgressScreen.css'; // Estilos CSS para el componente
 import Construction from '../../assets/warning.svg';
 import Back from '../../assets/back.svg';
 import Button from '../Button/Button';
+import { Link, useNavigate } from 'react-router-dom';
 
-const WorkInProgressScreen = ({ onBackButtonClick }) => {
+const WorkInProgressScreen = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="construction-page">
       {/* Fila 1: Link Atrás */}
       <div className="row">
-        <button className="back-button" onClick={onBackButtonClick}>
-            <span className="icon">
-            <img src={Back} alt="Imagen de atencion" className="construction-image" />
+        <button className="back-button" onClick={() => navigate(-1)}>
+            <span className="icon ">
+              <img src={Back} alt="Imagen de atencion" className="construction-image" />
             </span> Atrás
         </button>
       </div>
@@ -32,7 +35,9 @@ const WorkInProgressScreen = ({ onBackButtonClick }) => {
       
       {/* Fila 5: Botón Volver */}
       <div className="row">
-      <Button title="Volver"/>
+        <Link to="/home">
+          <Button title="Ir al Home"/>
+        </Link>
       </div>
     </div>
   );

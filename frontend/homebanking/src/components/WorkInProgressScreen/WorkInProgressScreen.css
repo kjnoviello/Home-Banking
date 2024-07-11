@@ -33,6 +33,9 @@
     cursor: pointer; /* Cambia el cursor al pasar el ratón */
     display: flex;
     align-items: center;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
   }
   
   .back-button:hover {
@@ -41,4 +44,8 @@
   
   .back-button .icon {
     margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+
+  .icon{
+    display: flex;
   }

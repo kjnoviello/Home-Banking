@@ -1,60 +1,95 @@
 .input-container {
-    position: relative;
-    width: 100%;
-    height: 55px;
-    margin-block: 16px;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  margin-block: 16px;
+}
 
-  }
+.input-icon {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 15px;
+  height: 15px;
+}
 
-  .input-icon {
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    width: 15px;
-    height: 15px;
-  }
-  
-  .input-iconTrailing{
-    cursor: pointer;
-    position: absolute;
-    top: 30%;
-    left: 80%;
-    width: 35px;
-    height: 25px;
-    background-color: var(--bg-card-dark);
-    border: none;
-  }
+.input-iconTrailing{
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 35px;
+  height: 25px;
+  background-color: var(--bg-card-dark);
+  border: none;
+}
 
-  .input-iconTrailing:hover{
-    scale: 120%;
-    color: var(--color-placeholder);
-  }
+.input-iconTrailing:hover{
+  scale: 120%;
+  color: var(--color-placeholder);
+}
 
-  .input-field {
-    width: 100%;
-    height: 100%;
-    font-family: var(--font-family-alt);
-    font-size: var(--size-pl);
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: var(--bg-card-dark);
-    display: flex;
-    text-align: center;
-    padding: 0px;
-  }
+.input-field {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family-alt);
+  font-size: var(--size-pl);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--bg-card-dark);
+  display: flex;
+  text-align: center;
+  padding: 0px;
+  font-weight: 600;
+}
 
-  .input-field::placeholder {
-    text-align: center;
-    color: var(--font-dark);
-    font-family: var(--font-family-alt);
-  }
+.input-field::placeholder {
+  text-align: center;
+  color: var(--font-dark);
+  font-family: var(--font-family-alt);
+}
 
-  .input-field:focus::placeholder {
-    color: transparent;
-  }
+.input-field:focus::placeholder {
+  color: transparent;
+}
 
 @media (min-width: 576px) {
   .input-container{
       width: 328px;
   }    
+}
+
+
+/* Class for Search component in transaction */
+.search-icon {
+  position: absolute;
+  top: 36%;
+  left: 10%;
+  width: 15px;
+  height: 15px;
+}
+
+.search-field {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family-alt);
+  font-size: var(--size-pl);
+  border: 2px solid #000000;
+  border-radius: 50px;
+  background-color: transparent;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.search-field::placeholder {
+  text-align: center;
+  color: var(--font-dark);
+  font-family: var(--font-family-alt);
+  
+}
+
+.search-field:focus::placeholder {
+  color: transparent;
 }

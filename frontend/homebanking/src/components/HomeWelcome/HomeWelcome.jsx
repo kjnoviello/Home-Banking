@@ -9,12 +9,29 @@ const HomeWelcome = () => {
 
     return (
         <main className='home-container'>
-            <NavHeader user="Bienvenido, José" classHome="true"></NavHeader>
-            <HomeBalance number="70000.00"></HomeBalance>
+            <NavHeader
+                user="Bienvenido, José" 
+                classHome="true">
+            </NavHeader>
+            <HomeBalance 
+                number="70000.00">
+            </HomeBalance>
             <div className='homeOptions-Container'>
-                <HomeOptions icon="/icons/add_card.png" label="Agregar Saldo"></HomeOptions>
-                <HomeOptions icon="/icons/transfer.png" label="Transferir"></HomeOptions>
-                <HomeOptions icon="/icons/rest_card.png" label="Sacar Saldo"></HomeOptions>
+                <HomeOptions 
+                    icon="/icons/add_card.png" 
+                    label="Agregar Saldo" 
+                    route="/history">
+                </HomeOptions>
+                <HomeOptions 
+                    icon="/icons/transfer.png" 
+                    label="Transferir" 
+                    route="/transaction">
+                </HomeOptions>
+                <HomeOptions 
+                    icon="/icons/rest_card.png" 
+                    label="Sacar Saldo" 
+                    route="/confirmation">
+                </HomeOptions>
             </div>
         </main>
     )
